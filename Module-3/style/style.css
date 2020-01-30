@@ -1,0 +1,97 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  font-family: "Playfair Display", serif;
+  color: #626262;
+  font-size: 14px;
+  line-height: 24px;
+}
+.menu li {
+  display: inline-block;
+  padding: 70px 0px 100px;
+}
+.menu {
+  list-style: none;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.list1 {
+  margin-right: 125px;
+}
+.list2 {
+  margin-right: 105px;
+}
+.list3 {
+  margin-right: 95px;
+}
+.menu a:hover,
+.menu a:focus {
+  color: #25b4f5;
+}
+.nav_menu {
+  color: #626262;
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 900px;
+  margin: 0 auto;
+}
+.main_boxs {
+  margin: 0;
+  padding: 0px;
+  font-size: 0;
+}
+
+.main_item {
+  width: 421px;
+  display: inline-block;
+  text-align: left;
+  list-style: none;
+}
+.main_item:not(:nth-child(2n)) {
+  margin-right: 58px;
+}
+.description {
+  font-family: "Ubuntu", sans-serif;
+  color: #b4ad9e;
+  line-height: 17px;
+  font-size: 14px;
+  margin-bottom: 26px;
+  margin-top: 30px;
+}
+.title {
+  font-size: 30px;
+  line-height: 36px;
+  margin-bottom: 40px;
+}
+.text {
+  font-size: 14px;
+}
+.buton {
+  font-family: "Playfair Display", serif;
+  margin: 0px;
+  padding: 0px;
+  font-size: 20px;
+  line-height: 24px;
+  background-color: white;
+  color: #626262;
+  border: none;
+  padding: 17px 32px 16px 32px;
+  cursor: pointer;
+}
+.border {
+  text-align: center;
+  margin: 55px 380px 70px 358px;
+  width: 165px;
+  height: 60px;
+  border: 1px solid #626262;
+}
