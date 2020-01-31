@@ -12,6 +12,10 @@ body {
   font-size: 14px;
   line-height: 24px;
 }
+p {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
 .menu li {
   display: inline-block;
   padding: 70px 0px 100px;
@@ -50,7 +54,6 @@ body {
   padding: 0px;
   font-size: 0;
 }
-
 .main_item {
   width: 421px;
   display: inline-block;
@@ -75,6 +78,13 @@ body {
 }
 .text {
   font-size: 14px;
+  margin-bottom: 134px;
+}
+li .right {
+  margin-bottom: 0px;
+}
+li .left {
+  margin-bottom: 0px;
 }
 .buton {
   font-family: "Playfair Display", serif;
