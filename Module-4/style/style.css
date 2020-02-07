@@ -51,7 +51,7 @@
   text-transform: uppercase;
   font-family: "Open Sans";
   font-weight: 700;
-  font-size: 10px;
+  font-size: 15px;
   line-height: 12px;
   color: #0f0101;
 }
@@ -119,6 +119,7 @@
   font-family: "Roboto";
   font-weight: 900;
   padding-left: 10px;
+  margin-bottom: 30px;
 }
 .product_list__item:hover .product_list__price {
   background-color: #7fd9c7;
