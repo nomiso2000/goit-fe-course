@@ -52,9 +52,11 @@ body {
 .menu_item:not(:nth-last-child(6n)) {
   margin-right: 40px;
 }
+.menu_link:hover {
+  color: #48c9b0;
+}
 .slider {
   position: relative;
-  margin-bottom: 100px;
 }
 
 .slider img {
@@ -63,41 +65,68 @@ body {
 
 .h1_slider {
   margin: 0;
-  font-size: 47px;
+  font-size: 58px;
   font-family: "Roboto";
-  font-weight: 600;
+  font-weight: 900;
   color: #ffffff;
-  background-color: #1abc9c;
   text-transform: uppercase;
+  padding-bottom: 20px;
 }
 
 .p_slider {
   margin: 0;
-  font-size: 18px;
+  font-size: 22px;
   font-family: "Roboto";
   font-weight: 300;
   color: #ffffff;
-  background-color: #1abc9c;
   text-transform: uppercase;
 }
 
 .slider_wrapper {
-  background-color: #1abc9c;
   position: absolute;
-  top: 50%;
+  top: 44%;
   left: 50%;
-  transform: translate(-50%, -70%);
+  transform: translate(-50%, -50%);
 }
 
 .buton {
   position: absolute;
+  width: 105px;
+  height: 105px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  border: transparent;
 }
-.main_section {
+.less {
+  background-image: url(/img/less.png);
+  top: 0%;
+  left: -25%;
+}
+.more {
+  background-image: url(/img/more.png);
+  top: 0%;
+  left: 110%;
+}
+
+.buton:hover {
+  background-color: rgb(26, 188, 156);
+  opacity: 0.9;
+}
+
+.a_slider:hover {
+  background-color: rgb(26, 188, 156);
+  opacity: 0.9;
+}
+
+main {
+  padding-top: 100px;
+  padding-bottom: 100px;
   background-color: #e9f0fd;
 }
 
 .h2_main {
-  margin: 0;
+  margin: 0px;
   font-size: 48px;
   text-transform: uppercase;
   font-family: "Roboro", sans-serif;
@@ -122,15 +151,16 @@ body {
 .main_item:not(:nth-child(4n)) {
   margin-right: 30px;
 }
-.menu_list {
+.main_list {
   padding-left: 0px;
 }
 
 .main_item p {
+  box-sizing: border-box;
   float: left;
-  font-size: 18px;
+  font-size: 19px;
   font-family: "Roboto", sans-serif;
-  font-weight: 600;
+  font-weight: 900;
   color: #ffffff;
 }
 .description {
@@ -140,6 +170,8 @@ body {
   color: #ffffff;
   background-color: #323232;
   float: left;
+  padding: 10px 0px 0px 10px;
+  text-transform: uppercase;
 }
 .price {
   margin: 0px;
@@ -148,19 +180,7 @@ body {
   color: #ffffff;
   background-color: #8c8c8c;
   float: left;
-}
-
-.like_share_latter {
-  border-width: 10px;
-  border-color: rgb(255, 255, 255);
-  border-style: solid;
-  background-color: rgb(0, 0, 0);
-  opacity: 0.549;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 235px;
-  height: 261px;
+  padding: 10px 0px 0px 7px;
 }
 
 .wrapper_for_description {
@@ -168,39 +188,106 @@ body {
   bottom: 0px;
 }
 
-/* .Rectangle_50_copy {
-    border-width: 10px;
-    border-color: rgb(255, 255, 255);
-    border-style: solid;
-    background-color: rgb(0, 0, 0);
-    opacity: 0.549;
-    position: absolute;
-    left: 530px;
-    top: 946px;
-    width: 235px;
-    height: 261px;
-    z-index: 25;
-  }
-   */
-.like_share_latter a {
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  border: 1px solid #ffffff;
-  background-color: black;
+.like_share_latter {
+  border-width: 10px;
+  border-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-clip: padding-box;
+  border-style: solid;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 235px;
+  height: 261px;
+  opacity: 0;
 }
 .icon_like {
   background-image: url(/img/serdce.png);
   background-repeat: no-repeat;
   background-position: center;
+  top: 80px;
+  left: 35px;
 }
 .icon_share {
   background-image: url(/img/strelki.png);
   background-repeat: no-repeat;
   background-position: center;
+  top: 80px;
+  left: 93px;
 }
 .icon_latter {
   background-image: url(/img/hodinnik.png);
   background-repeat: no-repeat;
   background-position: center;
+  top: 80px;
+  left: 152px;
+}
+.icon_add {
+  box-sizing: border-box;
+  border: 1px solid #ffffff;
+  background-color: #323232;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Open Sans";
+  width: 165px;
+  height: 50px;
+  position: absolute;
+  top: 137px;
+  left: 35px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 10px;
+}
+.icon_add::before {
+  margin-right: 10px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  content: "";
+  background-image: url(/img/telejka.png);
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}
+.main_item:hover .description {
+  background-color: #1abc9c;
+}
+.main_item:hover .price {
+  background-color: #7fd9c7;
+}
+
+.main_item:hover .like_share_latter {
+  opacity: 1;
+}
+.icon {
+  display: inline-block;
+  border: 1px solid #ffffff;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+.icon:hover {
+  background-color: #1abc9c;
+}
+
+.footer_content {
+  box-sizing: border-box;
+  width: 100%;
+  height: 90px;
+  background-color: #323232;
+  text-align: center;
+}
+.footer_inf {
+  padding-top: 34px;
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.footer_inf:hover {
+  color: #46bfa9;
 }
