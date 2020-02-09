@@ -100,12 +100,12 @@ body {
   border: transparent;
 }
 .less {
-  background-image: url(../img/less.png);
+  background-image: url("../img/less.png");
   top: 0%;
   left: -25%;
 }
 .more {
-  background-image: url(img/more.png);
+  background-image: url("img/more.png");
   top: 0%;
   left: 110%;
 }
@@ -203,7 +203,7 @@ main {
   opacity: 0;
 }
 .icon_like {
-  background-image: url(img/serdce.png);
+  background-image: url("/img/serdce.png");
   background-repeat: no-repeat;
   background-position: center;
   top: 80px;
