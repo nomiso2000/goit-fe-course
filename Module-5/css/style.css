@@ -91,6 +91,7 @@ body {
 
 .buton {
   position: absolute;
+  padding: 0px;
   width: 105px;
   height: 105px;
   background-repeat: no-repeat;
@@ -99,12 +100,12 @@ body {
   border: transparent;
 }
 .less {
-  background-image: url(/img/less.png);
+  background-image: url(../img/less.png);
   top: 0%;
   left: -25%;
 }
 .more {
-  background-image: url(/img/more.png);
+  background-image: url(img/more.png);
   top: 0%;
   left: 110%;
 }
@@ -202,21 +203,21 @@ main {
   opacity: 0;
 }
 .icon_like {
-  background-image: url(/img/serdce.png);
+  background-image: url(img/serdce.png);
   background-repeat: no-repeat;
   background-position: center;
   top: 80px;
   left: 35px;
 }
 .icon_share {
-  background-image: url(/img/strelki.png);
+  background-image: url(img/strelki.png);
   background-repeat: no-repeat;
   background-position: center;
   top: 80px;
   left: 93px;
 }
 .icon_latter {
-  background-image: url(/img/hodinnik.png);
+  background-image: url(img/hodinnik.png);
   background-repeat: no-repeat;
   background-position: center;
   top: 80px;
@@ -247,7 +248,7 @@ main {
   width: 30px;
   height: 30px;
   content: "";
-  background-image: url(/img/telejka.png);
+  background-image: url(img/telejka.png);
   background-repeat: no-repeat;
   vertical-align: middle;
 }
