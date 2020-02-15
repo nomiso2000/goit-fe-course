@@ -111,22 +111,22 @@ body {
   background-repeat: no-repeat;
 }
 .services_item:first-child::before {
-  background-image: url("/img/ALARM.png");
+  background-image: url("../img/ALARM.png");
 }
 .services_item:nth-child(2)::before {
-  background-image: url("/img/LINE\ GRAPH.png");
+  background-image: url("../img/LINE\ GRAPH.png");
 }
 .services_item:nth-child(3)::before {
-  background-image: url("/img/COMPUTER\ _\ OK.png");
+  background-image: url("../img/COMPUTER\ _\ OK.png");
 }
 .services_item:nth-child(4)::before {
-  background-image: url("/img/BOOK\ 2.png");
+  background-image: url("../img/BOOK\ 2.png");
 }
 .services_item:nth-child(5)::before {
-  background-image: url("/img/HOME.png");
+  background-image: url("../img/HOME.png");
 }
 .services_item:last-child::before {
-  background-image: url("/img/IMAGE.png");
+  background-image: url("../img/IMAGE.png");
 }
 
 .services_description {
@@ -192,16 +192,16 @@ body {
   background-color: #95e1d3;
 }
 .facebook {
-  background-image: url("/img/facebook.png");
+  background-image: url("../img/facebook.png");
 }
 .twitter {
-  background-image: url("/img/twitter.png");
+  background-image: url("../img/twitter.png");
 }
 .pinterest {
-  background-image: url("/img/pinterest.png");
+  background-image: url("../img/pinterest.png");
 }
 .instagram {
-  background-image: url("/img/instagram.png");
+  background-image: url("../img/instagram.png");
 }
 .background {
   display: flex;
