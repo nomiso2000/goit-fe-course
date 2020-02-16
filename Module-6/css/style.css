@@ -91,6 +91,9 @@ body {
 }
 .services_item {
   flex: 0 0 380px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
 }
 .h3_title {
   text-transform: uppercase;
@@ -105,9 +108,8 @@ body {
   content: "";
   width: 32px;
   height: 32px;
-  float: left;
   padding-right: 29px;
-  padding-bottom: 29px;
+  /* padding-bottom: 10%; */
   background-repeat: no-repeat;
 }
 .services_item:first-child::before {
@@ -130,6 +132,7 @@ body {
 }
 
 .services_description {
+  padding-left: 61px;
   color: #9f9f9f;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -237,29 +240,33 @@ body {
   border-top: 1px #e7e7e7 solid;
   height: 62px;
 }
+.email_buton {
+  display: flex;
+  align-items: center;
+}
 .input_email {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   border: 1px #e7e7e7 solid;
   font-size: 15px;
-  line-height: 24px;
-  padding: 5px;
+  padding-left: 12px;
   border-right: none;
   width: 230px;
-  height: 50px;
+  height: 40px;
 }
 
 .buton {
+  box-sizing: border-box;
   width: 150px;
-  height: 50px;
+  height: 40px;
   text-transform: uppercase;
   color: #ffffff;
   background-color: #95e1d3;
   border: none;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
-  padding: 12px;
+  cursor: pointer;
 }
 .main_description {
   font-family: "Montserrat", sans-serif;
