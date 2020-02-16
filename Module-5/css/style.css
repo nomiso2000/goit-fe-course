@@ -96,8 +96,10 @@ body {
   height: 105px;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: transparent;
+  background-color: rgb(26, 188, 156);
+  opacity: 0.9;
   border: transparent;
+  cursor: pointer;
 }
 .less {
   background-image: url("../img/less.png");
@@ -111,8 +113,8 @@ body {
 }
 
 .buton:hover {
-  background-color: rgb(26, 188, 156);
-  opacity: 0.9;
+  background-color: #1abc9c;
+  opacity: 1;
 }
 
 .a_slider:hover {
@@ -231,7 +233,7 @@ main {
   font-size: 14px;
   font-weight: 400;
   font-family: "Open Sans";
-  width: 165px;
+  width: 169px;
   height: 50px;
   position: absolute;
   top: 137px;
@@ -286,9 +288,13 @@ main {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: 400px;
+
+  color: #ffffff;
+}
+.footer_link {
   text-decoration: none;
   color: #ffffff;
 }
-.footer_inf:hover {
+.footer_link:hover {
   color: #46bfa9;
 }
