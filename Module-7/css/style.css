@@ -1,0 +1,206 @@
+html {
+  box-sizing: border-box;
+}
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  width: 940px;
+}
+main {
+  width: 940px;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  height: 115px;
+  align-items: center;
+  padding-bottom: 68px;
+}
+.navigation_list {
+  display: flex;
+  justify-content: space-between;
+  width: 477px;
+  list-style: none;
+  /* padding: 42px; */
+}
+.navigation_link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #222222;
+  font-size: 14px;
+  line-height: 40px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+}
+.navigation_link:hover {
+  color: #fed751;
+}
+.link_logo {
+  text-decoration: none;
+  color: #fed751;
+  font-size: 26px;
+  line-height: 40px;
+  font-family: "Kaushan Script";
+  font-style: normal;
+  font-weight: 400;
+}
+.h2_title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #222222;
+  font-size: 40px;
+  line-height: 75px;
+  padding-bottom: 6px;
+  text-align: center;
+}
+.description {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 400;
+  color: #777777;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+.services_list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.services_list_item {
+  width: 291px;
+  margin-bottom: 120px;
+}
+
+.services_list_item::before {
+  content: "";
+  display: block;
+  border: 3px solid #fed136;
+  border-radius: 50%;
+  width: 72px;
+  height: 71px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+}
+.services_list_item:first-child::before {
+  background-image: url("../img/Basket.png");
+}
+.services_list_item:nth-child(2)::before {
+  background-image: url("../img/Icon-Laptop.png");
+}
+.services_list_item:nth-child(3)::before {
+  background-image: url("../img/Icon-Locked.png");
+}
+.services_list_item_description {
+  text-align: center;
+}
+.services_list_item_title {
+  text-align: center;
+}
+.container {
+  width: 940px;
+  margin: 0 auto;
+}
+.services_list_item_title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 75px;
+  color: #222222;
+}
+.services_list_item_description {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 2;
+  color: #777777;
+}
+footer {
+  height: 675px;
+  background-image: url("../img/Map.jpg");
+}
+.footer_title {
+  padding-top: 105px;
+  font-size: 40px;
+  line-height: 48px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+.footer_description {
+  font-size: 16px;
+  line-height: 19px;
+  color: #777777;
+  text-align: center;
+  padding-bottom: 75px;
+}
+/* Form--------------------------------------- */
+.contacts-form {
+  height: 306px;
+}
+.contacts-form-innerWrapper {
+  display: flex;
+  justify-content: space-between;
+  height: 212px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+.intuts-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.contacts-form-input {
+  width: 454px;
+  height: 52px;
+  padding-left: 20px;
+  border-radius: 5px;
+  border: 1px rgb(197, 193, 193) solid;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.contacts-form-textarea {
+  padding-left: 20px;
+  border-radius: 5px;
+  border: 1px rgb(197, 193, 193) solid;
+  height: 100%;
+  width: 454px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 15px 0px 0px 10px;
+}
+.contacts-form-button {
+  margin: 0 auto;
+  width: 240px;
+  display: block;
+  height: 64px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  background-color: #fed136;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  cursor: pointer;
+}
