@@ -1,0 +1,92 @@
+@media screen and (max-width: 767px) {
+  header {
+    height: 540px;
+    background-image: url("../img/header1jpg.jpg");
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+
+  header {
+    height: 700px;
+    background-image: url("../img/header2.jpg");
+  }
+  .wrapper_for_log-up {
+    padding: 50px 50px 0px 0px;
+  }
+  .organization_name {
+    padding: 50px 0px 0px 50px;
+  }
+  .navigation {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-bottom: 155px;
+  }
+  .header_title {
+    font-size: 52px;
+    margin: 0 auto;
+    display: block;
+    width: 510px;
+  }
+  .header_description {
+    font-size: 24px;
+    width: 410px;
+    padding-bottom: 40px;
+  }
+  .meet_partner_title {
+    padding-bottom: 35px;
+  }
+  .meet_partner_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .meet_partner_list_item {
+    width: 270px;
+    margin: 0;
+    padding-bottom: 50px;
+  }
+  .meet_partner_list_item:nth-child(1) {
+    order: 1;
+    margin-right: 20px;
+  }
+  .meet_partner_list_item:nth-child(2) {
+    order: 3;
+    margin-right: 20px;
+  }
+  .meet_partner_list_item:nth-child(3) {
+    order: 2;
+  }
+  .meet_partner_list_item:nth-child(4) {
+    order: 4;
+  }
+  .meet_partner_list_item::after {
+    right: 70px;
+  }
+  .other_partners {
+    padding: 7px 30px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  header {
+    background-image: url("../img/header3.jpg");
+  }
+  .container {
+    width: 1440px;
+  }
+  .wrapper_for_log-up {
+    padding: 50px 250px 0px 0px;
+  }
+  .organization_name {
+    padding: 50px 0px 0px 250px;
+  }
+  .meet_partner_list_item {
+    width: 220px;
+  }
+  .meet_partner_list_item::after {
+    right: 45px;
+  }
+}
