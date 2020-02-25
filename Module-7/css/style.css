@@ -131,7 +131,10 @@ main {
 }
 footer {
   height: 675px;
-  background-image: url("../img/Map.jpg");
+  background-color: #222222;
+  background-image: url("../img/Map.png");
+  background-position: right;
+  background-repeat: no-repeat;
 }
 .footer_title {
   padding-top: 105px;
