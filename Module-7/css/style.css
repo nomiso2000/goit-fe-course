@@ -20,16 +20,15 @@ main {
 .navigation {
   display: flex;
   justify-content: space-between;
-  height: 115px;
   align-items: center;
   padding-bottom: 68px;
+  padding-top: 40px;
 }
 .navigation_list {
   display: flex;
   justify-content: space-between;
   width: 477px;
   list-style: none;
-  /* padding: 42px; */
 }
 .navigation_link {
   text-decoration: none;
@@ -176,6 +175,7 @@ footer {
   font-style: normal;
   font-weight: 700;
   text-transform: uppercase;
+  font-size: 14px;
 }
 .contacts-form-textarea {
   padding-left: 20px;
@@ -187,6 +187,7 @@ footer {
   font-style: normal;
   font-weight: 700;
   text-transform: uppercase;
+  font-size: 14px;
   padding: 15px 0px 0px 10px;
 }
 .contacts-form-button {
@@ -203,4 +204,10 @@ footer {
   font-style: normal;
   font-weight: 700;
   cursor: pointer;
+}
+input:valid {
+  border-color: rgb(197, 193, 193);
+}
+input:invalid {
+  border-color: red;
 }
