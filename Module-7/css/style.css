@@ -137,6 +137,9 @@ footer {
   background-repeat: no-repeat;
 }
 .footer_title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
   padding-top: 105px;
   font-size: 40px;
   line-height: 48px;
@@ -146,6 +149,9 @@ footer {
   margin-bottom: 22px;
 }
 .footer_description {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   color: #777777;
