@@ -89,4 +89,7 @@
   .meet_partner_list_item::after {
     right: 45px;
   }
+  .meet_partner_list_item:nth-child(3) {
+    margin-right: 20px;
+  }
 }
