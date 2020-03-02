@@ -1,0 +1,202 @@
+body {
+  margin: 0 auto;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: inherit;
+}
+header {
+  text-align: center;
+  height: 540px;
+  background-image: url("../img/header3.jpg");
+  background-size: cover;
+}
+header a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+}
+.sign_up {
+  padding: 7px 15px;
+}
+.log_in {
+  padding: 7px 15px;
+}
+.sign_up:hover,
+.log_in:hover {
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+}
+
+.organization_name {
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #ffffff;
+  padding-bottom: 20px;
+}
+.navigation {
+  padding-top: 20px;
+}
+.header_title {
+  margin: 0;
+  font-size: 30px;
+  line-height: 1.2;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+}
+.header_description {
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.2;
+  color: #ffffff;
+  padding-bottom: 20px;
+  font-family: "Roboto";
+  font-weight: 300;
+}
+.header_link {
+  font-style: 14px;
+  line-height: 1.2;
+  border: 2px solid transparent;
+  background-color: #ff4e50;
+  border-radius: 20px;
+  padding: 7px 50px;
+}
+.meet_partner_item {
+  margin: 0 auto;
+}
+.meet_partner_title {
+  margin: 0;
+  padding-top: 70px;
+  font-size: 22px;
+  line-height: 1.2;
+  padding-bottom: 15px;
+  color: #333333;
+  text-align: center;
+}
+
+.partner_img_wrapper {
+  position: relative;
+  width: 220px;
+}
+
+.partner_img_wrapper::after {
+  content: "";
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 5px solid #ffffff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: block;
+  position: absolute;
+  right: 45px;
+  top: 85px;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.partner_img_wrapper,
+.partner_img {
+  margin: 0 auto;
+}
+.partner_name {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #333333;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+.partner_description {
+  margin: auto;
+  width: 220px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #8f8f8f;
+  font-family: "Roboto";
+  font-weight: 300;
+  padding-bottom: 30px;
+}
+.meet_partner {
+  padding-bottom: 50px;
+}
+.first::after {
+  background-image: url("../img/Shape.png");
+  background-color: #ff4e50;
+}
+.second::after {
+  background-image: url("../img/Shape\ 155.png");
+  background-color: #ffa507;
+}
+.thirth::after {
+  background-image: url("../img/Shape3.png");
+  background-color: #1cd7ad;
+}
+.fourth::after {
+  background-image: url("../img/Shape4.png");
+  background-color: #4e73db;
+}
+.other_partners {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.2;
+  border: 2px solid #ff4e50;
+  border-radius: 20px;
+  padding: 7px 75px;
+  color: #ff4e50;
+}
+@media (max-width: 767px) {
+  .wrapper_for_log-up {
+    padding-bottom: 100px;
+  }
+}
+@media (min-width: 768px) {
+  .navigation {
+    padding-bottom: 105px;
+  }
+  header {
+    height: 700px;
+  }
+
+  .meet_partner_title {
+    padding-bottom: 40px;
+  }
+  .organization_name {
+    text-align: start;
+  }
+  .header_title {
+    font-size: 52px;
+    margin: 0 auto;
+    display: block;
+    width: 510px;
+  }
+  .header_description {
+    font-size: 24px;
+    width: 410px;
+    padding-bottom: 40px;
+  }
+  .meet_partner_title {
+    padding-bottom: 35px;
+  }
+  .meet_partner {
+    padding-bottom: 70px;
+  }
+  .other_partners {
+    padding: 7px 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  .partner_item {
+    padding-bottom: 50px;
+  }
+}
