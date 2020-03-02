@@ -33,20 +33,19 @@ header p {
   display: flex;
   justify-content: center;
   height: 40px;
-  padding-top: 20px;
+  padding-top: 20px/;
   padding-bottom: 105px;
   align-items: center;
 }
-.sign_up {
-  padding: 7px 15px;
-}
+.sign_up,
 .log_in {
   padding: 7px 15px;
+  border: 2px solid rgba(255, 255, 255, 0);
+  border-radius: 20px;
 }
 .sign_up:hover,
 .log_in:hover {
   border: 2px solid #ffffff;
-  border-radius: 20px;
 }
 
 .organization_name {
