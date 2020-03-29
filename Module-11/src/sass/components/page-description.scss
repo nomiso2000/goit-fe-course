@@ -1,0 +1,31 @@
+.page-description {
+    text-align: center;
+    color: $primary-white-color;
+  }
+  .page-description__description {
+    font-family: $decorative-font;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 1.2;
+    margin: 0;
+    // padding-bottom: 50px;
+  }
+  .page-description__title {
+    font-family: $main-font;
+    font-weight: 700;
+    font-size: 150px;
+    line-height: 140px;
+    margin-top: 50px;
+    // padding-bottom: 130px;
+    text-transform: uppercase;
+  }
+  .page-description__link {
+    font-family: $main-font;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+    color: $primary-white-color;
+    text-transform: uppercase;
+    padding: 15px 30px 15px 30px;
+    border: 3px solid $primary-white-color;
+  }
