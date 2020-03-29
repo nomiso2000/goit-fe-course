@@ -24,22 +24,22 @@
       background-size: contain;
     }
     &:first-child::before {
-      background-image: url("/images/ALARM.png");
+      background-image: url("../images/ALARM.png");
     }
     &:nth-child(2)::before {
-      background-image: url("/images/LINE\ GRAPH.png");
+      background-image: url("../images/LINE\ GRAPH.png");
     }
     &:nth-child(3)::before {
-      background-image: url("/images/COMPUTER\ _\ OK.png");
+      background-image: url("../images/COMPUTER\ _\ OK.png");
     }
     &:nth-child(4)::before {
-      background-image: url("/images/BOOK\ 2.png");
+      background-image: url("../images/BOOK\ 2.png");
     }
     &:nth-child(5)::before {
-      background-image: url("/images/HOME.png");
+      background-image: url("../images/HOME.png");
     }
     &:last-child::before {
-      background-image: url("/images/IMAGE.png");
+      background-image: url("../images/IMAGE.png");
     }
   }
   .services__title {
