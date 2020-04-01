@@ -4,10 +4,10 @@
     flex-wrap: wrap;
     padding-left: 0px;
     justify-content: space-between;
-
+    margin-top: 60px;
   }
   .services__item {
-    flex: 0 0 380px;
+    flex: 0 0 340px;
     display: flex;
     flex-wrap: wrap;
     justify-content: start;
@@ -49,7 +49,7 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
-    margin-bottom: 20px;
+    margin-bottom: 14px;
     color: $second-gray-color;
   }
   .services__description {
@@ -60,5 +60,5 @@
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
-    padding-bottom: 100px;
+    padding-bottom: 90px;
   }
